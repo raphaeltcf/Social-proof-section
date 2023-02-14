@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1100px) {
+
+    .container {
+        margin: 50px 0px;
+        top: 0;
+        transform: translate( -50%,0);
+    }
+
+    .ratting-1, .ratting-2, .ratting-3 {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    h2.review, .best {
+        padding: 0;
+    }
+
+    h1, p {
+        text-align: center;
+    }
+
+    .ratting-1,  .ratting-2  {
+        position: static;
+    }
+
+    .top,
+    .bot {
+        display: block;
+        width: auto;
+    }
+
+    .card {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
